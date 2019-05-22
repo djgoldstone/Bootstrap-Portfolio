@@ -24,3 +24,6 @@ p {
 .jumbotron {
     background-image: url(../images/memphis-mini.png);
 }
+.form {
+    padding-right: 200px
+}
