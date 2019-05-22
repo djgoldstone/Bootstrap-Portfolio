@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     background-image: url(../images/memphis-mini.png);
+    padding-top: 50px; 
 }
 header {
     background-color: #ffffff;
@@ -20,4 +21,6 @@ p {
 #list-header {
     background-color: #4aaaa5;
 }
-
+.jumbotron {
+    background-image: url(../images/memphis-mini.png);
+}
