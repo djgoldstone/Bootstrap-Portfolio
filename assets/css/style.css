@@ -21,9 +21,19 @@ p {
 #list-header {
     background-color: #4aaaa5;
 }
+#header-style {
+    padding-bottom: 0%;
+}
 .jumbotron {
     background-image: url(../images/memphis-mini.png);
+    margin-bottom: -20px;
 }
 .form {
     padding-right: 200px
+}
+.jumbo {
+    margin-bottom: -50px;
+}
+.footer {
+    padding-top: 75px;
 }
