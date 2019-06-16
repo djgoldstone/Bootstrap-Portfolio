@@ -37,3 +37,7 @@ p {
 .footer {
     padding-top: 75px;
 }
+.card-img-top {
+    width: 538px;
+    height: 175px;
+}
