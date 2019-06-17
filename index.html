@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>About | Derek Goldstone</title>
+  <title>Derek Goldstone</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../Bootstrap-Portfolio/assets/css/style.css">
-  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 
@@ -19,12 +19,12 @@
     <a name="top-of-page"></a>
     <div class="container">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
-        <a class="navbar-brand col-md-9" href="#">Derek Goldstone</a>
+        <a class="navbar-brand col-md-3 col-lg-7 col-xl-8" href="#">Derek Goldstone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav col-md-3">
+          <div class="navbar-nav">
             <a class="nav-item nav-link" href="#top-of-page">About</a>
             <a class="nav-item nav-link" href="#portfolio-section">Portfolio</a>
             <a class="nav-item nav-link" href="#contact-section">Contact</a>
@@ -36,7 +36,7 @@
 <div class="jumbo">
   <div class="container" id="header-style">
     <div class="row">
-      <div class="col-md-4 mt-4 pb-0">
+      <div class="col-md-10 col-lg-8 mt-4 pb-0">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">About Me</h1>
@@ -57,25 +57,61 @@
           
           <div class="row">
             
-            <div class="col-md-4 mb-3">
+            <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 mb-3">
                 <img src="assets/images/profile_pic.jpg" class="auth-image img-fluid" alt="Derek Goldstone" style="width:250px;height:350px;">
             </div>
 
-            <div class="col-md-10 col-lg-8">
-                  
+            <div class="col-sm-12 col-md-7 col-lg-8 col-xl-8">
+              <div id="intro-paragraph">
                 <p class="lead">Hello! My name is Derek Goldstone, an aspiring front-end web developer based in the San Francisco Bay Area.  I enjoy building things and solving problems! I am currently enrolled in UC Berkeley Extension's Full-Stack Bootcamp.</p>
 
                 <p class="lead">After graduating from the University of San Francisco in 2012 I worked in non-profit for 7 years in consumer protection, workers' compensation, immigration/citizenship services, and homelessness services.</p>
 
                 <p class="lead">In my spare time I enjoy cooking, camping, hiking, outdoorsmanship,sports, and reading.  From 2014-2019 I was a Golden State Warriors season ticket holder and loved every minute of it!</p>
+              </div>
 
             </div>
             
         </div>
             
             <hr class="my-4">
+
+            <div class="card-group">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Technical Skills:</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><img src="./assets/images/html.png" alt="HTML" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/css.png" alt="CSS" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/js.png" alt="JavaScript" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/python.png" alt="Python" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/jquery.png" alt="JQuery" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/node_js.png" alt="Node.JS" id="lang-icons"></li>
+                        <li class="list-group-item"><img src="./assets/images/bootstrap.png" alt="Bootstrap" id="lang-icons"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Education:</h5>
+                    <ul class="list-group">
+                          <li class="list-group-item">Bachelors of Arts, Politics University of San Francisco 2012</li>
+                          <li class="list-group-item">Associate of Arts, Computer Science, College of Alameda (Expected Completion Date: May 2020)</li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Certifications:</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-Q3JM0Q8R/"><img src="./assets/images/udemy.png" alt="udemy" id="lang-icons"></a></li>
+                        <li class="list-group-item">Web Design Certificate of Proficiency, College of Alameda (Expected Completion Date: May 2020)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
           
-        <div class="row">
+        <!-- <div class="row">
           
           <div class="col-md-4 col-lg-4 col-xl-4">
 
@@ -92,7 +128,7 @@
             
           </div>
 
-          <div class="col-md-4 col-lg-4 col-xl-4">
+          <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
 
               <ul class="list-group">
                 <div class="list-header">
@@ -104,7 +140,7 @@
 
           </div>
 
-          <div class="col-md-4 col-lg-4 col-xl-4">
+          <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
 
               <ul class="list-group">
                   <li class="list-group-item active">Certifications:</li>
@@ -114,7 +150,7 @@
 
           </div>
         
-        </div>
+        </div> -->
             
 
       
@@ -133,66 +169,66 @@
               <h1 class="display-4">Portfolio</h1>
               <p class="lead">Work Samples</p>
             </div>
+            <div class="container mt-3">
+                <div class="row">
+                  <div class="card-deck">
+                      <div class="card">
+                        <a href="https://djgoldstone.github.io/unit-4-game/"><img src="./assets/images/dubs-challenge-screenshot.png" class="card-img-top img-fluid" alt="Dubs Challenge"></a>
+                        <div class="card-body">
+                          <h5 class="card-title">Dubs Challenge</h5>
+                          <p class="card-text">Code</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <a href="https://djgoldstone.github.io/Psychic-Game/"><img src="./assets/images/Index-Page-Screenshot.png" class="card-img-top img-fluid" alt="Psychic Game"></a>
+                        <div class="card-body">
+                          <h5 class="card-title">Psychic Game</h5>
+                          <p class="card-text">Code</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <a href="https://djgoldstone.github.io/TriviaGame/"><img src="./assets/images/trivia-game-screenshot.png" class="card-img-top img-fluid" alt="Trivia Game"></a>
+                        <div class="card-body">
+                          <h5 class="card-title">Trivia Game</h5>
+                          <p class="card-text">Code</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            
+              <div class="container mt-3 mb-3">
+                  <div class="row">
+                    <div class="card-deck">
+                        <div class="card">
+                          <a href="https://djgoldstone.github.io/GifTastic/"><img src="./assets/images/giphy-screenshot.png" class="card-img-top img-fluid" alt="GIFTastic"></a>
+                          <div class="card-body">
+                            <h5 class="card-title">GIFTastic</h5>
+                            <p class="card-text">Code</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <a href="https://djgoldstone.github.io/Train-Scheduler/"><img src="./assets/images/train-tracker-screenshot.png" class="card-img-top img-fluid" alt="Train Tracker"></a>
+                          <div class="card-body">
+                            <h5 class="card-title">Train Tracker</h5>
+                            <p class="card-text">Code</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <a href="https://djgoldstone.github.io/Sip/"><img src="./assets/images/sip-screenshot.png" class="card-img-top img-fluid" alt="Sip"></a>
+                          <div class="card-body">
+                            <h5 class="card-title">Sip First</h5>
+                            <p class="card-text">Code</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container mt-3">
-    <div class="row">
-      <div class="card-deck">
-          <div class="card">
-            <a href="https://djgoldstone.github.io/unit-4-game/"><img src="./assets/images/dubs-challenge-screenshot.png" class="card-img-top img-fluid" alt="Dubs Challenge"></a>
-            <div class="card-body">
-              <h5 class="card-title">Dubs Challenge</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://djgoldstone.github.io/Psychic-Game/"><img src="./assets/images/Index-Page-Screenshot.png" class="card-img-top img-fluid" alt="Psychic Game"></a>
-            <div class="card-body">
-              <h5 class="card-title">Psychic Game</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://djgoldstone.github.io/TriviaGame/"><img src="./assets/images/trivia-game-screenshot.png" class="card-img-top img-fluid" alt="Trivia Game"></a>
-            <div class="card-body">
-              <h5 class="card-title">Trivia Game</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-
-  <div class="container mt-3 mb-3">
-      <div class="row">
-        <div class="card-deck">
-            <div class="card">
-              <a href="https://djgoldstone.github.io/GifTastic/"><img src="./assets/images/giphy-screenshot.png" class="card-img-top img-fluid" alt="GIFTastic"></a>
-              <div class="card-body">
-                <h5 class="card-title">GIFTastic</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card">
-              <a href="https://djgoldstone.github.io/Train-Scheduler/"><img src="./assets/images/train-tracker-screenshot.png" class="card-img-top img-fluid" alt="Train Tracker"></a>
-              <div class="card-body">
-                <h5 class="card-title">Train Tracker</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card">
-              <a href="https://djgoldstone.github.io/Sip/"><img src="./assets/images/sip-screenshot.png" class="card-img-top img-fluid" alt="Sip"></a>
-              <div class="card-body">
-                <h5 class="card-title">Sip First</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
 
     <div class="container">
       <div class="row">
@@ -201,61 +237,45 @@
               <div class="container">
                 <h1 class="display-4">Contact</h1>
                 <p class="lead">Please reach out with any inquiries. I'll get back to you as soon as possible!</p>
+                <div id="contact-section">
+                    <a name="contact-section"></a>
+                    <div class="container mt-3 mb-4 mr-3 pb-3">
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                          <a href="https://www.linkedin.com/in/derek-goldstone-482884a3/">
+                            <img src="https://image.flaticon.com/icons/svg/124/124011.svg" style="width: 30px; height: 30px" alt="LinkedIn" />
+                          </a>
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                          <a href="https://github.com/djgoldstone">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 30px; height: 30px" alt="GitHub" />
+                          </a>
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                          <a href="mailto:derekgoldstone@yahoo.com">
+                            <img src="./assets/images/email-icon.jpg" style="width: 30px; height: 30px" alt="Email" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
           </div>
         </div>
       </div>
     </div>
 
-    <a name="contact-section"></a>
-    <div class="container mt-3 mb-4 mr-3 pb-3">
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-1 col-md-1 col-lg-1">
-          <a href="https://www.linkedin.com/in/derek-goldstone-482884a3/">
-            <img src="https://image.flaticon.com/icons/svg/124/124011.svg" style="width: 30px; height: 30px" alt="LinkedIn" />
-          </a>
-        </div>
-        <div class="col-sm-1 col-md-1 col-lg-1">
-          <a href="https://github.com/djgoldstone">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 30px; height: 30px" alt="GitHub" />
-          </a>
-        </div>
-        <div class="col-sm-1 col-md-1 col-lg-1">
-          <a href="mailto:derekgoldstone@yahoo.com">
-            <img src="./assets/images/email-icon.jpg" style="width: 30px; height: 30px" alt="Email" />
-          </a>
-        </div>
-        <!-- <div class="col-sm-10 col-md-10 col-lg-10" id="form-style">
-          <div class="card" style="width: 40rem;">
-            <div class="card-body">
-              <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
-                </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </div>
+    
 
-  <nav class="navbar navbar-dark bg-dark d-flex justify-content-center pt-3">
-    <span class="navbar-brand mb-0 h1">Copyright 2019 &copy;</span>
-  </nav>
+        <nav class="navbar navbar-dark bg-dark d-flex justify-content-center pt-3">
+          <span class="navbar-brand mb-0 mr-3 h1">Copyright 2019 &copy;</span>
+        </nav>
 
- 
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
+  
+  
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
